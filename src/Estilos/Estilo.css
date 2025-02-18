@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(10, 26, 26);
+    background-color: rgb(35, 36, 36);
 }
 h1{
     color:azure; 
@@ -16,4 +16,8 @@ p{
     font-style: normal;
     font-size:x-large;
     justify-content: space-around;
+}
+.seccion{
+    padding-top: 100px;
+    
 }

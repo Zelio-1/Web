@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(10, 26, 26);
+}
+h1{
+    color:azure; 
+    font-family:cursive; 
+    margin: auto;
+}
+h1:first-of-type{
+    margin-top: 4rem;
+}
+p{
+    color:floralwhite;    
+    font-family: "Indie Flower", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:x-large;
+    justify-content: space-around;
+}

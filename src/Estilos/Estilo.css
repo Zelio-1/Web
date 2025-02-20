@@ -18,6 +18,19 @@ p{
     justify-content: space-around;
 }
 .seccion{
-    padding-top: 100px;
-    
+    display: flex;
+    padding-top: 80px;
+    align-items: center;
+}
+.elemento{/**Esto es para los textos al costado de una imagen*/
+    display: inline-block;
+    padding-left: 70px;
+    padding-right: 200px;
+    max-block-size: 180px;
+    overflow: auto;
+}
+.contenedor {
+    display: flex;
+    height: 300px;
+    align-items:center; 
 }

@@ -28,6 +28,7 @@
               <a class="nav-link" href="#artista_info">Acerca del artista</a>
               <a class="nav-link" href="#canciones">Canciones</a>  
               <a class="nav-link" href="#contacto">Contacto</a> 
+              <a class="nav-link" href="#colaboracion">Colaboración</a> 
             </div>
           </div>
         </div>
@@ -98,19 +99,69 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
+    <div class="grid text-center seccion" id="colaboracion">
+      <h1>
+        Colaboración 
+      </h1>
+    </div>
+    
+    <div class="formulario">
+      <div class="card" style="width: 18rem;">
+        <img src="./img/colab.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Colaboración</h5>
+          <p class="texto_formulario">Para colaborar agrega tu información para ver si tenemos los mismos gustos o similares, para sacar un buen producto 😊</p>
+        </div>
+        
+        <div class="formulario_datos">
+          <form>
+            <label for="Nombre" class="Datos">Nombre:</label> 
+            <input type="text" class="Datos"name="Nombre" id="Nombre" value="" placeholder="Escribe tu nombre" required> 
+            <br>
+            <br>
+            <label for="Generos" class="Datos">Géneros:</label> 
+            <input type="text" class="Datos"name="Generos" id="Generos" value=""required> 
+            <br>
+            <br>
+            <label for="Estilos" class="Datos">Estilos:</label> 
+            <input type="text" class="Datos"name="Estilos" id="Estilos" value=""required> 
+            <br>
+            <br>
+            <label for="email" class="Datos">Correo:</label> 
+            <input type="email" name="Correo electrónico" value="" placeholder="name@example.com" required> 
+            <div class="card-body">
+              <button type="submit" class="btn btn-outline-success">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
     <div class="grid text-center seccion" id="contacto">
       <h1>
         Contacto 
       </h1>
     </div>
-    <div class="contenedor">
+    <div class="caja">
       <img src="./img/email.png" alt="img" class="img-fluid img">
       <p class="fs-1">
         <p class="lh-sm texto_linea">
           Correo electronico: 
+          <a href="terios@coldmail.com"target="_blank">terios@coldmail.com</a>
         </p>  
       </p>
+      <a href="https://soundcloud.com/"target="_blank">
+        <img src="./img/sc.png" alt="icon"class="icon-alto espacio">
+      </a>
+      <a href="https://www.youtube.com/"target="_blank" class="icon-bajo img_boton">
+        <img src="./img/yt.png" alt="icon-bajo" class="img_boton">
+      </a>
+      <a href="https://www.tiktok.com/discover/pagina-oficial?lang=es"target="_blank">
+        <img src="./img/tik_tok.png" alt="icon"class="icon-alto img_boton">
+      </a>
+      
+      <a href="https://www.instagram.com/"target="_blank">
+        <img src="./img/insta.png" alt="icon-bajo"class="icon-bajo_2 img_boton">
+      </a>
     </div>
 </body>
 </html>

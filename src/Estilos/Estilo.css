@@ -17,6 +17,28 @@ p{
     font-size:x-large;
     justify-content: space-around;
 }
+.texto_formulario{
+    color:rgb(42, 41, 40);    
+    font-family: "Indie Flower", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:x-large;
+    justify-content: space-around;
+}
+.formulario{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+.formulario_datos{
+    display: inline-block;
+    padding-left: 5px;
+    padding: 2px;
+}
+.Datos{
+    padding: 2px;
+    padding-left: 5px;
+}
 .seccion{
     display: flex;
     padding-top: 80px;
@@ -34,16 +56,73 @@ p{
     height: 300px;
     align-items:center; 
 }
+
+.img{
+    /*display: flex;*/
+    width: 50px;
+    height: 50px;
+    /*margin-left: 350px;*/
+    border-radius: 5px;
+    margin-top: -22px;
+}
+
+.texto_linea{
+    padding: 20px;
+}
+/*
 .texto_linea{
     display: inline-block;
-    padding-left: 50px;
+    padding-left: 20px;
     padding-right: 200px;
     max-block-size: 180px;
 }
-.img{
-    /*display: flex;*/
-    width: 75px;
-    height: 50px;
-    margin-left: 200px;
 
+*/
+.caja{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 40%;
+    padding-left: 40%;
 }
+.icon-alto{
+    margin-top: -160px;
+    padding-left: 2px;
+    padding: 2px;
+}
+.icon-bajo{
+    top:2px;
+    margin-left: -105px;
+    padding-left: 2px;
+    padding: 2px;
+}
+.icon-bajo_2{
+    top:2px; 
+    margin-left: -100px;
+    padding-left: 2px;
+    padding: 2px;
+}
+.espacio{
+    padding-left: 150px;
+}
+label{
+    display: block;
+}
+input{
+    margin-left: 5px;
+}
+/*
+.img_boton{
+    width: 100px;
+    height: 100px;
+}
+.icon-bajo{
+    margin-left: -100px;
+    justify-content: center;
+}
+.icon-bajo_2{
+    margin-left: -200px;
+    justify-content: center;
+}
+*/
